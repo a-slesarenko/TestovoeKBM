@@ -1,0 +1,27 @@
+// обнуляющий стили файл
+@import url("./styles_utilities/resetStyles.scss");
+// ------------------------------------------------------------------------------------------------------------------------------------------s
+// Шрифты google fonts
+// Sora
+// font-family: "Sora", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+// ------------------------------------------------------------------------------------------------------------------------------------------
+// Глобальные классы
+:global {
+    // классы
+    .container {
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1920px;
+        height: 100%;
+        padding: 40px 0;
+    }
+
+    .lockScroll{
+		overflow: hidden;
+	}
+}
+// Корневой div root
+#root {
+    min-height: 100vh;
+}
